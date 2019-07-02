@@ -1,0 +1,112 @@
+.card-style {
+  cursor: pointer;
+  height: 60px;
+  width: 100%;
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  border-radius: 18px;
+  color: white;
+}
+
+.category-style {
+  font-weight: bold !important;
+  font-size: 1rem !important;
+  padding: 0px;
+  height: inherit;
+  width: inherit;
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.category--title {
+  padding: 10px;
+  line-height: 40px;
+}
+
+.category--item-text {
+  padding-left: 10px;
+}
+
+.category--icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  background: #fff;
+  color: #000;
+  font-size: 30px;
+  float: left;
+  text-align: center;
+}
+
+.categories-container-padding {
+  padding: 15px 0px;
+}
+
+.category-items--align {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.category-style:after {
+  animation: shine 5s ease-in-out infinite;
+  animation-fill-mode: forwards;
+  content: "";
+  position: absolute;
+  top: -110%;
+  left: -210%;
+  width: 200%;
+  height: 230%;
+  opacity: 0;
+  transform: rotate(30deg);
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.13) 0%,
+    rgba(255, 255, 255, 0.13) 77%,
+    rgba(255, 255, 255, 0.5) 92%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+/* Hover state - trigger effect */
+
+/* Active state */
+
+.icon:active:after {
+  opacity: 0;
+}
+
+@keyframes shine {
+  10% {
+    opacity: 1;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-timing-function: ease;
+  }
+
+  100% {
+    opacity: 0;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+  }
+}
+
+.category-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .category-container {
+    justify-content: initial;
+  }
+}

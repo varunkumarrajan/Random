@@ -1,0 +1,29 @@
+.create-article{
+    margin-top: 68px
+}
+
+.mr-top{
+    margin-top: 20px;
+}
+
+.rm-padding{
+    padding : 0px !important;
+}
+.progressbar-spacing {
+    height: 45px !important;
+  }
+
+.quill  {
+    background: #ffffff;
+    color: #000000;
+}
+
+.ql-editor{
+    min-height: 150px;
+}
+
+.styles_closeButton__20ID4{
+    top: 10px!important;
+    right: 10px!important;
+}
+  

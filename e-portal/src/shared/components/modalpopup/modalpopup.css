@@ -1,0 +1,140 @@
+.teacher-details {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.help-block {
+  font-size: 14px !important;
+  color: #ff0000 !important;
+}
+
+.already-notified {
+  color: #117a8b;
+}
+.student-teacher-label {
+  font-size: 20px;
+  color: #117a8b;
+}
+.student-teacher-notifying {
+  display: inline-block;
+  color: #117a8b;
+  padding-left: 20px;
+}
+.header {
+  padding: 0px 0px 25px 0px;
+  color: white;
+  font-size: 20px !important;
+}
+.h3,
+h3 {
+  font-size: 20px !important;
+}
+.margn-top {
+  margin-top: 20px;
+}
+.teacher-start-rating {
+  top: 10px;
+}
+
+.teacher-details-okay {
+  text-align: center;
+}
+/*For the Whole Body of Modal*/
+.styles_modal__gNwvD {
+  min-width: 50%;
+  /* height: 75% !important; */
+  position: relative;
+  padding: 1.2rem;
+  background: #ffffff;
+  background-clip: border-box;
+  box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.25);
+  margin: auto;
+}
+/*For Submit Button*/
+.btn-primary {
+  color: honeydew;
+  background-color: olive;
+  border-color: yellowgreen;
+}
+.fileOne {
+  padding-right: 10px;
+}
+.textarea-detail {
+  margin-top: 15px !important;
+  margin-bottom: 25px !important;
+  padding-top: 15px !important;
+}
+.progressbar-spacing {
+  height: 30px;
+}
+textarea.form-control {
+  height: auto;
+  margin-top: 5px;
+  padding-top: 15px;
+}
+.teacher {
+  float: right;
+}
+.submit {
+  float: right;
+}
+.fa-angle-right:before {
+  font-size: x-large;
+  padding-left: 40px;
+}
+/* 
+
+ */
+/*  */
+
+.adjust-top {
+  position: relative;
+  top: 70px !important;
+  min-height: 100vh;
+  background-color: #fff;
+  color: #000;
+}
+.extend {
+  padding-top: 20px;
+  max-height: 500px;
+  overflow: hidden;
+}
+button {
+  margin: 2px !important;
+}
+form {
+  padding: 0 !important;
+}
+.border-right {
+  border-right: 1px solid #f7f7f7;
+}
+.own-progress {
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+.own-progress-bar {
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  transition: width 0.6s ease;
+}
+
+.red-star {
+  color: #ff0000;
+  position: relative;
+  top: 8px;
+}
+@media only screen and (max-width: 600px) {
+  .hide-teacher-student {
+    display: none;
+  }
+}

@@ -1,0 +1,147 @@
+.profile-image--style {
+  border-radius: 100px;
+}
+
+.user-profile-card--padding {
+  padding: 4px !important;
+}
+
+.user-details-tray--style {
+  text-align: center;
+  border: none !important;
+  color: black !important;
+}
+
+.user-title {
+  width: 120px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: 600;
+  margin: auto auto 0 auto;
+}
+
+.user-list--title {
+  width: 150px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.charge-container {
+  background: grey;
+  height: 70px;
+  width: 70px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  margin-left: -5px;
+}
+
+.per-hour-title {
+  font-size: 10px !important;
+}
+
+.tray-item--height {
+  height: 250px;
+  align-items: center;
+}
+
+.profile-pic-list {
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.profile-pic-block {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background: #fff;
+  overflow: hidden;
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+  display: inline-block;
+}
+
+.profile-pic--align {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tray-item--style {
+  background: #4b4e68 !important;
+}
+
+.user-detail--align {
+  text-align: left !important;
+}
+.vd-wrapper {
+  // box-shadow: 0 0 4px #9a9a9a;
+  img {
+    width: 100%;
+    transition: all 0.3s;
+  }
+  a {
+    color: #000000;
+    display: block;
+    transition: all 0.3s;
+    > div {
+      overflow: hidden;
+    }
+    &:hover {
+      text-decoration: none;
+      color: inherit;
+      > div {
+        img {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+  .vd-content {
+    padding: 5px 10px 10px;
+    height: 80px;
+    border: 1px solid #d5d5d5;
+    color: #000000;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    h5 {
+      margin-bottom: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .fas {
+      font-size: 13px;
+    }
+    p {
+      font-size: 13px;
+      margin-bottom: 0;
+      font-weight: 300;
+    }
+    &.user-details-tray--style {
+      h6 {
+        margin: unset;
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .tray-item--height {
+    height: 150px;
+  }
+  .user-title {
+    width: 160px;
+  }
+}

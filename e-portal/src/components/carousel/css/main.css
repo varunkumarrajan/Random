@@ -1,0 +1,68 @@
+/* @import 'alice-carousel'; */
+
+.app-carousel {
+  max-width: 1005px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  /* opacity: 0.5; */
+}
+.h1 {
+  text-align: center;
+  font-size: 1.5em;
+  flex: 1;
+  color: #fff;
+}
+.alice-carousel__wrapper {
+  border: solid 1px rgba(70, 87, 152, .3);
+}
+.item {
+  background-color: #ff69b4;
+  height: 170px;
+  margin: 5px;
+}
+.item h1 {
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  color: #00f;
+}
+.item h1:before {
+  content: '';
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.img-thumbnail{
+  width: 300px;
+  height: 170px;
+  cursor: pointer;
+}
+/* Start CSS for Modal*/
+.layer {
+  z-index: 1;
+  position: absolute;
+  width: 300px;
+  top: 0;
+  /* height: 170px; */
+  margin: 5px;
+}
+
+.modalStyle {
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 15px;
+  z-index: 10;
+  box-sizing: border-box;
+}
+
+.backdropStyle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: 'rgba(0,0,0,0.3)';
+  padding: 5;
+};
+/* End CSS for Modal*/

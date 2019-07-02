@@ -1,0 +1,95 @@
+.hc .textContainer {
+    color: #000;
+    background: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+    padding: .75rem;
+    border-radius: .2rem;
+    min-height: 2.75rem;
+    position: relative;
+    width: 100%;
+    border: solid 0.5px grey;
+}
+
+.hc .item-container {
+    display: none;
+    background: #FFF;
+    overflow: auto;
+    position: absolute;
+    top: 100%;
+    width: 99%;
+    z-index: 10;
+    min-height: 100px;
+    margin: auto;
+    box-shadow: 2px 2px 4px #999;
+}
+
+.hc .item {
+    background-color: #FFF;
+    height: auto;
+    box-shadow: 2px 2px 4px #999;
+    margin: 0 .1rem;
+    padding: .7rem;
+    color: #000;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.hc .item:hover {
+    background-color: #5e5e53;
+    color: #FFF;
+}
+
+.hc .show {
+    display: block;
+}
+
+.hc .hide {
+    display: none;
+}
+
+.hc .clearSearch {
+    position: relative;
+    float: right;
+    width: 20px;
+    height: 20px;
+    background: #e5e5e5;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hc .selectedItemText {
+    width: 90%;
+    float: left;
+    position: relative;
+}
+
+.hc .searchContainer {
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.hc .searchInput {
+    width: 100%;
+    padding: 0 45px 0 10px;
+}
+
+.hc .dropdown-btn {
+    width: 45px !important;
+    position: absolute;
+    top: -4px;
+    right: 0px;
+    border: unset;
+    line-height: 0px;
+    background-color: transparent !important;
+    height: 45px !important;
+}
+
+.hc .btn-font {
+    font-size: 17px;
+    top: -5px;
+    right: -1px;
+}

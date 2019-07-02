@@ -1,0 +1,19 @@
+@import './../../../styles.scss';
+footer{
+    bottom: 0;    
+    display: flex!important;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    @media (min-width: $mobileWidth) {        
+        display: $none!important;
+    }
+}
+.active{       
+    i {
+        color: #a7a1a1!important;
+    }
+}
+.unset-style {
+    float: unset;
+}

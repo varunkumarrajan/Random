@@ -1,0 +1,17 @@
+{
+  "name": "simple-js-tree-view",
+  "version": "1.0.1",
+  "description": "simple js tree view",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "tree",
+    "tree-view",
+    "simple"
+  ],
+  "author": "varun kumar rajan",
+  "license": "ISC"
+}

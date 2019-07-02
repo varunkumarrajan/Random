@@ -1,0 +1,26 @@
+<!doctype>
+<html>
+	<head>
+	</head>
+	<body>
+		<button id="btn" type="button">open window</button>	
+		<script>
+			var btn = document.getElementById('btn'), windowO = '', origin = 'file:///C:/Users/VarunKum/Desktop/reciever/index.html';
+			if(btn){
+				btn.addEventListener('click',function(){
+					windowO = window.open(origin, "", "width=500,height=500");
+				},false);
+			}
+			windowO.postMessage("the is sample message", origin);
+			windowO.postMessage("hello there", origin);
+			
+			function rMessage(event){
+				if(event.origin !== 'file:///C:/Users/VarunKum/Desktop/reciever/index.html'){
+					return;
+				}
+				console.log(event);
+			}
+			window.addEventListener('message', rMessage, false);
+		</script>
+	</body>
+</html>

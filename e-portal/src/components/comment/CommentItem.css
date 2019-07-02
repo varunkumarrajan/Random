@@ -1,0 +1,38 @@
+.profile-img {
+  border-radius: 50%;
+}
+
+.no-thumb {
+  width: 40px;
+  height: 40px;
+  padding: 0 0 0 34px;
+}
+
+.margin-auto {
+  margin: auto;
+}
+.comment-btn {
+  padding: 0 0 0 12px;
+  align-items: center;
+  font-weight: 600;
+}
+.comments-input {
+  /* padding: 0 10px; */
+  margin-left: 15px;
+}
+.comments-count {
+  padding: 0 10px;
+}
+.total-comments {
+  align-items: baseline;
+}
+
+.comments-section {
+  margin: auto;
+}
+.comment-text{
+float:left;
+color:black;
+margin-bottom: 10px;
+margin-top: -25px;
+}

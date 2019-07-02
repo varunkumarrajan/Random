@@ -1,0 +1,13 @@
+<form>
+	<textarea></textarea>
+</form>
+<script>
+const form = document.querySelector('form');
+const textarea = document.querySelector('textarea');
+const event = new CustomEvent("varun", {
+  bubbles: true,
+  detail: { text: () => textarea.value }
+});
+form.addEventListener('varun',e => console.log(e.detail.text()));
+textarea.addEventListener('input', e => e.target.dispatchEvent(event));
+</script>

@@ -1,0 +1,8 @@
+.adjust-top {
+  top: 10px;
+  height: 500px;
+  min-height: 500px
+}
+.space {
+  margin :0 2px 0 2px
+}

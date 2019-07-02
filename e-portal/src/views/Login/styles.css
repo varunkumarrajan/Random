@@ -1,0 +1,196 @@
+.container-background {
+  background: #a6a6a6;
+}
+
+.container-fluid-login {
+  width: 100%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  overflow: hidden;
+}
+
+.sign-in--text {
+  height: 52px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  color: black !important;
+  padding-top: 10px !important;
+  padding-bottom: 38px;
+  padding-left: 30px !important;
+}
+
+.sign-in--text .text-style-1 {
+  font-size: 44px;
+  color: #2b2c3c;
+}
+
+.sign-in--text .sign-in-text--padding {
+  padding: 10px;
+  color: white;
+}
+
+.login-form--padding {
+  padding: 30px !important;
+}
+
+.login-form--padding label {
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: black;
+}
+
+.card-border-radius {
+  border-radius: 10px !important;
+  background: #4b4e68 !important;
+}
+
+input:-internal-autofill-previewed,
+input:-internal-autofill-selected,
+textarea:-internal-autofill-previewed,
+textarea:-internal-autofill-selected,
+select:-internal-autofill-previewed,
+select:-internal-autofill-selected {
+  background-color: #2b2c3c !important;
+  background-image: none !important;
+  color: #2b2c3c !important;
+}
+
+form input[type="email"] {
+  border-radius: 4px;
+  border: solid 0.5px grey;
+  background-color: #363636;
+  height: 45px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: grey !important;
+}
+
+form input[type="text"] {
+  border-radius: 4px;
+  border: solid 0.5px grey;
+  background-color: #363636;
+  height: 45px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: grey !important;
+}
+
+.form-control:focus {
+  color: #2b2c3c !important;
+  border-color: #2b2c3c;
+  border-color: #2b2c3c !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+form input[type="password"] {
+  border-radius: 4px;
+  border: solid 0.5px grey;
+  background-color: #363636 !important;
+  height: 45px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: grey !important;
+}
+
+.padding-top-15 {
+  padding-top: 15px;
+}
+
+.btn-login {
+  width: 100%;
+  height: 45px;
+  display: inline-block;
+  position: relative;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.15;
+  letter-spacing: normal;
+  color: #4b4d5f;
+  border: 1px solid #2b2c3c;
+  border-radius: 4px;
+  background: #2b2c3c;
+}
+
+.help-block {
+  font-size: 12px;
+  color: #a94442;
+}
+
+.register-align {
+  float: right;
+  cursor: pointer;
+}
+
+.row-without--margin {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.social-login--align {
+  text-align: center;
+}
+
+.social-login--size {
+  height: 45px;
+  width: 45px;
+  background-size: cover;
+  margin: 15px 0px 0px 0px !important;
+}
+
+.content-align--middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: unset !important;
+  padding-top: 0px !important;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .social-login--size {
+    background-size: contain;
+    margin: 2px !important;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .container-fluid-login {
+    max-width: 400px;
+  }
+
+  .social-login--size {
+    background-size: contain;
+    margin: 5px !important;
+  }
+}

@@ -1,0 +1,42 @@
+/* .dropdown,
+.dropleft,
+.dropright,
+.dropup {
+    position: absolute !important;
+    right: 20px !important;
+    top: 0px;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown > .btn {
+height:42px;
+border-radius: 20px;
+border: 0px;
+padding: 0 0;
+} */
+
+.avatar-icon {
+  font-size: 26px !important;
+  padding: 10px 0px;
+}
+
+.bs-popover-auto[x-placement^="bottom"],
+.bs-popover-bottom {
+  margin-top: 0px !important;
+}
+
+.avatar-item {
+  padding: 5px;
+  border-bottom: 1px solid #d3d4df;
+  cursor: pointer;
+}
+
+.popover-header {
+  color: black;
+}
+
+@media screen and (min-width: 768px) {
+}

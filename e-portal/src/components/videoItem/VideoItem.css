@@ -1,0 +1,58 @@
+.profile-image--style {
+  border-radius: 100px;
+}
+
+.user-profile-card--padding {
+  padding: 4px !important;
+}
+
+.user-details--height {
+  text-align: left;
+  border: none !important;
+  color: white !important;
+}
+
+.rating-position {
+  position: absolute;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+/* 
+.video-margin {
+  margin-top: 25px;
+}
+ */
+/* .views {
+  color: #868383;
+} */
+
+/* video-meta-data {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.video-meta-data span small {
+  display: block;
+} */
+
+.video-title {
+  width: 160px;
+  height: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.thumb-wrapper {
+  cursor: pointer;
+}
+.detail--text {
+  color: #000 !important;
+}

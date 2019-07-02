@@ -1,0 +1,19 @@
+/* $backgroundColor: #1976d2;
+$color: #fff;
+$boxShadow: 0 2px 5px 0 rgba(0,0,0,.3); */
+
+.box-shadow{
+    background: #1976d2;;
+    color: #fff !important;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);;
+    min-height: 40px;   
+}
+a{
+    color: #fff !important
+}
+.active{
+    background-color: #fff;
+    box-shadow:  0 2px 5px 0 rgba(0,0,0,.3);
+}
+
+

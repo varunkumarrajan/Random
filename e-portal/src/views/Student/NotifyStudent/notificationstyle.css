@@ -1,0 +1,22 @@
+.notification-container {
+  background-color: #333546 !important;
+  display: flex !important ;
+  flex-direction: row !important;
+  justify-content: center !important;
+}
+.notification-containerbody {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  position: relative;
+  max-width: max-content;
+}
+
+.container-fluid h4 {
+  font-weight: 300;
+  color: white;
+}
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}

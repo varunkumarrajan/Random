@@ -1,0 +1,19 @@
+.top-header-section {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+.nav-section {
+  padding-top: 3px;
+}
+
+.header-title--font {
+  line-height: 65px;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .header-title--font {
+    font-size: 1.75rem;
+  }
+}

@@ -1,0 +1,104 @@
+.wrapper {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.calender-label {
+    margin-right: 20px;
+}
+
+.calender-icon{
+    cursor: pointer;
+    position: relative;
+    top: -34px;
+    float: right;
+    right: 4px;
+    background-color: gray;
+    padding: 6px;
+}
+.complete-calender{
+    position: relative;
+}
+
+.margin-both{
+    margin: 0 20px;
+}
+
+.margin-top-bottom {
+    margin: 20px 0;
+}
+
+.search-icon{
+    position: relative;
+    float: right;
+    top: -44px;
+    padding: 13px;
+    right: 1px;
+    background: #f2c419;
+    cursor: pointer;
+}
+
+.left-arrow-icon{
+    margin-right: 10px;
+}
+
+.back-to-dashborad{
+    cursor: pointer;
+}
+
+.start-end-date{
+    margin-top: 30px;
+}
+
+.check-box-all-day-event{
+    margin : 20px 0;
+}
+
+.event-form input[type="number"] {
+    font-family: inherit !important;
+     border: none !important;
+     font-size: inherit !important; 
+} 
+
+.event-form-label{
+    color: black !important;
+    font-size: 17px !important;
+}
+
+.btn-event-save {
+    width: 30%;
+    height: 45px;
+    display: inline-block;
+    position: relative;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.15;
+    letter-spacing: normal;
+    color: #4b4d5f;
+    border: 1px solid #f2c419;
+    border-radius: 4px;
+    background: #f2c419 !important;
+}
+
+
+.btn-event-cancel {
+    width: 30%;
+    height: 45px;
+    display: inline-block;
+    position: relative;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.15;
+    letter-spacing: normal;
+    color: #4b4d5f;
+    border: 1px solid #545b62;
+    border-radius: 4px;
+    background: #545b62 !important;
+    margin-top: 10px;
+}

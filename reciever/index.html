@@ -1,0 +1,12 @@
+<h1>
+hello</h1>
+<script>
+var origin = 'file:///C:/Users/VarunKum/Desktop/message/index.html';
+function rMessage(event){
+	if(event.origin !== origin){
+		return;
+	}
+	console.log(event);
+}
+window.addEventListener('message', rMessage, false);
+</script>

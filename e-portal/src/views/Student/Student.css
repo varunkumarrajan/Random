@@ -1,0 +1,76 @@
+.student-tutor {
+  max-width: 80rem;
+  margin: 0 auto;
+  margin-top: 65px;
+  background: #ffffff;
+  padding: 20px;
+}
+
+.vd-content {
+  background: white;
+}
+.dropdown-toggle::after {
+  position: absolute !important;
+  right: 22px !important;
+  top: 22px;
+}
+
+.list-item-drop-down {
+  cursor: pointer;
+}
+.search-box-filter {
+  max-width: 40rem;
+  margin: 60px auto;
+}
+.subject-dropdown {
+  width: 15rem;
+  display: inline-block;
+}
+.student-drop-down {
+  display: inline-block;
+}
+
+.student-search-box {
+  display: inline-block !important;
+  margin-left: 20px;
+  width: 58%;
+}
+
+.inner-addon {
+  position: relative;
+}
+
+/* style icon */
+.inner-addon .fa-search {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .fa-search {
+  right: 0px;
+}
+.right-addon .fa-search {
+  right: 0px;
+}
+
+/* add padding  */
+.right-addon input {
+  padding-right: 30px;
+}
+@media only screen and (max-width: 620px) {
+  .nav-bar-wrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .student-drop-down {
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .student-search-box {
+    width: 68%;
+  }
+}

@@ -1,0 +1,30 @@
+.users-list {list-style-type: none; margin: 0;padding: 0;}
+.users-list>.users-list-item {padding: 0 22px;margin: 5px}
+.users-list-item-img  {
+    float: left;
+    width: 58px;
+    height: 58px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.users-list-item i  {
+    float: left;
+    font-size:48px;
+    width: 58px;
+    height: 58px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.border {border: 1px solid rgba(162,162,162,.16);}
+.users-list-item-text {
+    a {
+        color: #212529!important;
+    }
+    a:hover {
+        text-decoration:none        
+    }
+}

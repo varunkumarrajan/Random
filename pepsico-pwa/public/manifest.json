@@ -1,0 +1,100 @@
+{
+  "short_name": "Pepsico",
+  "name": "Pepsico",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "assets/icons/android-icon-36x36.png",
+      "sizes": "36x36",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/android-icon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/android-icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/android-icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/android-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/android-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/cat1.png",
+      "sizes": "262x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/cat2.png",
+      "sizes": "600x320",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/cat3.png",
+      "sizes": "275x183",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/cat4.png",
+      "sizes": "213x237",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/cat5.png",
+      "sizes": "432x300",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/cat6.png",
+      "sizes": "217x232",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/img0.jpg",
+      "sizes": "366x450",
+      "type": "image/jpg"
+    },
+    {
+      "src": "assets/images/img1.jpg",
+      "sizes": "488x488",
+      "type": "image/jpg"
+    },
+    {
+      "src": "assets/images/img2.jpg",
+      "sizes": "225x225",
+      "type": "image/jpg"
+    },
+    {
+      "src": "assets/images/brand-logo.png",
+      "sizes": "686x670",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
