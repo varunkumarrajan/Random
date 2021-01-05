@@ -7,7 +7,7 @@
     "@progress/kendo-react-animation": "^2.8.0",
     "@progress/kendo-react-treeview": "^2.8.0",
     "@progress/kendo-theme-default": "^3.5.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
     "chart.js": "^2.8.0",
     "classnames": "^2.2.6",
